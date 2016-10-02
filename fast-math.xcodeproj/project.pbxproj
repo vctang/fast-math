@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08281F41D4BE317001E2918 /* pricedown bl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D08281F31D4BE317001E2918 /* pricedown bl.ttf */; };
+		D08281F61D4BE42A001E2918 /* Amethyst.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D08281F51D4BE42A001E2918 /* Amethyst.ttf */; };
 		D0FCB5411D49392200128246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FCB5401D49392200128246 /* AppDelegate.swift */; };
 		D0FCB5431D49392200128246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FCB5421D49392200128246 /* ViewController.swift */; };
 		D0FCB5461D49392200128246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FCB5441D49392200128246 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D08281F31D4BE317001E2918 /* pricedown bl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pricedown bl.ttf"; sourceTree = "<group>"; };
+		D08281F51D4BE42A001E2918 /* Amethyst.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amethyst.ttf; sourceTree = "<group>"; };
 		D0FCB53D1D49392100128246 /* fast-math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fast-math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FCB5401D49392200128246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FCB5421D49392200128246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		D0FCB53F1D49392200128246 /* fast-math */ = {
 			isa = PBXGroup;
 			children = (
+				D08281F51D4BE42A001E2918 /* Amethyst.ttf */,
+				D08281F31D4BE317001E2918 /* pricedown bl.ttf */,
 				D0FCB5401D49392200128246 /* AppDelegate.swift */,
 				D0FCB5421D49392200128246 /* ViewController.swift */,
 				D0FCB5441D49392200128246 /* Main.storyboard */,
@@ -123,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FCB54B1D49392200128246 /* LaunchScreen.storyboard in Resources */,
+				D08281F41D4BE317001E2918 /* pricedown bl.ttf in Resources */,
+				D08281F61D4BE42A001E2918 /* Amethyst.ttf in Resources */,
 				D0FCB5481D49392200128246 /* Assets.xcassets in Resources */,
 				D0FCB5461D49392200128246 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +294,7 @@
 				D0FCB5511D49392200128246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
